@@ -1,0 +1,331 @@
+MacBook-Pro:python_demo catkin$ cd /Users/catkin/python_demo ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/catkin/.vscode/extensions/ms-python.python-2018.10.1/pythonFiles/experimental/ptvsd_launcher.py --nodebug --client --host localhost --port 60753 /Users/catkin/python_demo/test_union_pay.py
+缴费:
+MTI:    [0200]
+HEADER: [603100000000]
+Fields: [ 2 3 4 11 14 22 23 25 26 35 41 42 48 49 52 53 55 60 64 ]
+          2 - Primary account number (PAN)              : [6212142000000000012]
+          3 - Processing code                           : [190000]
+          4 - Amount, transaction                       : [000000000001]
+         11 - System trace audit number                 : [160310]
+         14 - Date, expiration                          : [2912]
+         22 - Point of service entry mode               : [051]
+         23 - Application PAN sequence number           : [000]
+         25 - Point of service condition code           : [81]
+         26 - Point of service capture code             : [06]
+         35 - Track 2 data                              : [6212142000000000012=29122206899031006]
+         41 - Card acceptor terminal identification     : [52010009]
+         42 - Card acceptor identification code         : [898520154110004]
+         48 - Additional data - private                 : [KP77SG0C26323520140909356184                70000000201809#]
+         49 - Currency code, transaction                : [156]
+         52 - Personal identification number data       : [9CA4E8A0FA2C49B3]
+         53 - Security related control information      : [2600000000000000]
+         55 - Reserved ISO                              : [9F2608BD23789651C50E119F2701809F101307010103A0A804010A010000045796F2D315039F3704A1DD65379F36020FFE950580800460009A031811139C01309F02060000000000005F2A02015682027C009F1A0201569F03060000000000009F3303604800]
+         60 - Reserved national                         : [2218111400000060]
+         64 - Message authentication code (MAC)         : [9F1D28FB9E1CE689]
+Sending:
+01 29 60 05 81 00 00 60 31 00 00 00 00 02 00 70
+24 06 c0 20 c1 9a 11 19 62 12 14 20 00 00 00 00
+01 20 19 00 00 00 00 00 00 00 01 16 03 10 29 12
+05 10 00 00 81 06 37 62 12 14 20 00 00 00 00 01
+2d 29 12 22 06 89 90 31 00 6f 35 32 30 31 30 30
+30 39 38 39 38 35 32 30 31 35 34 31 31 30 30 30
+34 00 59 4b 50 37 37 53 47 30 43 32 36 33 32 33
+35 32 30 31 34 30 39 30 39 33 35 36 31 38 34 20
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 37
+30 30 30 30 30 30 30 32 30 31 38 30 39 23 31 35
+36 9c a4 e8 a0 fa 2c 49 b3 26 00 00 00 00 00 00
+00 01 02 9f 26 08 bd 23 78 96 51 c5 0e 11 9f 27
+01 80 9f 10 13 07 01 01 03 a0 a8 04 01 0a 01 00
+00 04 57 96 f2 d3 15 03 9f 37 04 a1 dd 65 37 9f
+36 02 0f fe 95 05 80 80 04 60 00 9a 03 18 11 13
+9c 01 30 9f 02 06 00 00 00 00 00 00 5f 2a 02 01
+56 82 02 7c 00 9f 1a 02 01 56 9f 03 06 00 00 00
+00 00 00 9f 33 03 60 48 00 00 16 22 18 11 14 00
+00 00 60 9f 1d 28 fb 9e 1c e6 89
+Received:
+01 06 60 00 00 05 81 60 31 00 00 00 00 02 10 70
+3e 02 81 0a c1 82 31 19 62 12 14 20 00 00 00 00
+01 20 19 00 00 00 00 00 00 00 01 16 03 10 16 03
+11 11 14 29 12 11 14 00 00 81 08 48 02 70 00 31
+36 30 33 31 31 39 30 39 30 39 36 30 30 35 32 30
+31 30 30 30 39 38 39 38 35 32 30 31 35 34 31 31
+30 30 30 34 00 59 4b 50 37 37 53 47 30 43 32 36
+33 32 33 35 32 30 31 34 30 39 30 39 33 35 36 31
+38 34 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+20 20 37 30 30 30 30 30 30 30 32 30 31 38 30 39
+23 31 35 36 00 36 9f 36 02 0f fe 91 0a 5f 6b 34
+a6 93 e5 be e4 30 30 72 11 86 0f 04 da 9f 79 0a
+00 00 00 05 20 00 e4 cc a9 01 00 42 42 49 30 30
+30 30 30 30 30 30 30 30 7c 30 31 7c c7 eb c7 f3
+bd f0 bb aa ee a3 b5 d8 bd c9 b7 d1 bd d3 bf da
+ca a7 b0 dc 7c 23 00 16 22 18 11 14 00 00 00 60
+ae 66 5d b5 27 1b be ee
+MTI:    [0210]
+HEADER: [603100000000]
+Fields: [ 2 3 4 11 12 13 14 15 23 25 32 37 39 41 42 48 49 55 59 60 64 ]
+          2 - Primary account number (PAN)              : [62121420000000000120]
+          3 - Processing code                           : [190000]
+          4 - Amount, transaction                       : [000000000001]
+         11 - System trace audit number                 : [160310]
+         12 - Time, local transaction (hhmmss)          : [160311]
+         13 - Date, local transaction (MMDD)            : [1114]
+         14 - Date, expiration                          : [2912]
+         15 - Date, settlement                          : [1114]
+         23 - Application PAN sequence number           : [000]
+         25 - Point of service condition code           : [81]
+         32 - Acquiring institution identification code : [48027000]
+         37 - Retrieval reference number                : [160311909096]
+         39 - Response code                             : [00]
+         41 - Card acceptor terminal identification     : [52010009]
+         42 - Card acceptor identification code         : [898520154110004]
+         48 - Additional data - private                 : [KP77SG0C26323520140909356184                70000000201809#]
+         49 - Currency code, transaction                : [156]
+         55 - Reserved ISO                              : [9F36020FFE910A5F6B34A693E5BEE430307211860F04DA9F790A000000052000E4CCA901]
+         59 - Reserved national                         : [4249303030303030303030307C30317CC7EBC7F3BDF0BBAAEEA3B5D8BDC9B7D1BDD3BFDACAA7B0DC7C23]
+         60 - Reserved national                         : [2218111400000060]
+         64 - Message authentication code (MAC)         : [AE665DB5271BBEEE]
+MacBook-Pro:python_demo catkin$ cd /Users/catkin/python_demo ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/catkin/.vscode/extensions/ms-python.python-2018.10.1/pythonFiles/experimental/ptvsd_launcher.py --nodebug --client --host localhost --port 60765 /Users/catkin/python_demo/test_union_pay.py
+账户余额查询:
+MTI:    [0200]
+HEADER: [603100000000]
+Fields: [ 2 3 11 14 22 23 25 26 35 41 42 49 52 53 55 60 64 ]
+          2 - Primary account number (PAN)              : [6212142000000000012]
+          3 - Processing code                           : [300000]
+         11 - System trace audit number                 : [160418]
+         14 - Date, expiration                          : [2912]
+         22 - Point of service entry mode               : [051]
+         23 - Application PAN sequence number           : [000]
+         25 - Point of service condition code           : [00]
+         26 - Point of service capture code             : [06]
+         35 - Track 2 data                              : [6212142000000000012=29122206899031006]
+         41 - Card acceptor terminal identification     : [52010009]
+         42 - Card acceptor identification code         : [898520154110004]
+         49 - Currency code, transaction                : [156]
+         52 - Personal identification number data       : [9CA4E8A0FA2C49B3]
+         53 - Security related control information      : [2600000000000000]
+         55 - Reserved ISO                              : [9F2608BD23789651C50E119F2701809F101307010103A0A804010A010000045796F2D315039F3704A1DD65379F36020FFE950580800460009A031811139C01309F02060000000000005F2A02015682027C009F1A0201569F03060000000000009F3303604800]
+         60 - Reserved national                         : [0118111400000060]
+         64 - Message authentication code (MAC)         : [E26897180E0B5562]
+Sending:
+00 e6 60 05 81 00 00 60 31 00 00 00 00 02 00 60
+24 06 c0 20 c0 9a 11 19 62 12 14 20 00 00 00 00
+01 20 30 00 00 16 04 18 29 12 05 10 00 00 00 06
+37 62 12 14 20 00 00 00 00 01 2d 29 12 22 06 89
+90 31 00 6f 35 32 30 31 30 30 30 39 38 39 38 35
+32 30 31 35 34 31 31 30 30 30 34 31 35 36 9c a4
+e8 a0 fa 2c 49 b3 26 00 00 00 00 00 00 00 01 02
+9f 26 08 bd 23 78 96 51 c5 0e 11 9f 27 01 80 9f
+10 13 07 01 01 03 a0 a8 04 01 0a 01 00 00 04 57
+96 f2 d3 15 03 9f 37 04 a1 dd 65 37 9f 36 02 0f
+fe 95 05 80 80 04 60 00 9a 03 18 11 13 9c 01 30
+9f 02 06 00 00 00 00 00 00 5f 2a 02 01 56 82 02
+7c 00 9f 1a 02 01 56 9f 03 06 00 00 00 00 00 00
+9f 33 03 60 48 00 00 16 01 18 11 14 00 00 00 60
+e2 68 97 18 0e 0b 55 62
+Received:
+00 bd 60 00 00 05 81 60 31 00 00 00 00 02 10 60
+38 02 81 0a c0 86 11 19 62 12 14 20 00 00 00 00
+01 20 30 00 00 16 04 18 16 04 18 11 14 00 00 00
+08 48 02 70 00 31 36 30 34 31 38 39 30 39 30 39
+37 30 30 35 32 30 31 30 30 30 39 38 39 38 35 32
+30 31 35 34 31 31 30 30 30 34 31 35 36 00 40 31
+30 30 31 31 35 36 43 30 30 31 37 39 39 38 35 36
+37 37 37 31 30 30 32 31 35 36 43 30 30 31 37 39
+39 38 38 34 37 37 34 00 36 9f 36 02 0f fe 91 0a
+5f 6b 34 a6 93 e5 be e4 30 30 72 11 86 0f 04 da
+9f 79 0a 00 00 00 05 20 00 e4 cc a9 01 00 16 01
+18 11 14 00 00 00 60 14 5c ab 84 e6 1a 62 3a
+MTI:    [0210]
+HEADER: [603100000000]
+Fields: [ 2 3 11 12 13 23 25 32 37 39 41 42 49 54 55 60 64 ]
+          2 - Primary account number (PAN)              : [62121420000000000120]
+          3 - Processing code                           : [300000]
+         11 - System trace audit number                 : [160418]
+         12 - Time, local transaction (hhmmss)          : [160418]
+         13 - Date, local transaction (MMDD)            : [1114]
+         23 - Application PAN sequence number           : [000]
+         25 - Point of service condition code           : [00]
+         32 - Acquiring institution identification code : [48027000]
+         37 - Retrieval reference number                : [160418909097]
+         39 - Response code                             : [00]
+         41 - Card acceptor terminal identification     : [52010009]
+         42 - Card acceptor identification code         : [898520154110004]
+         49 - Currency code, transaction                : [156]
+         54 - Additional amounts                        : [1001156C0017998567771002156C001799884774]
+         55 - Reserved ISO                              : [9F36020FFE910A5F6B34A693E5BEE430307211860F04DA9F790A000000052000E4CCA901]
+         60 - Reserved national                         : [118111400000060]
+         64 - Message authentication code (MAC)         : [145CAB84E61A623A]
+
+MacBook-Pro:python_demo catkin$ cd /Users/catkin/python_demo ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/catkin/.vscode/extensions/ms-python.python-2018.10.1/pythonFiles/experimental/ptvsd_launcher.py --nodebug --client --host localhost --port 58820 /Users/catkin/python_demo/test_union_pay.py
+缴费:
+MTI:    [0200]
+HEADER: [603100000000]
+Fields: [ 2 3 4 11 14 22 23 25 26 35 41 42 48 49 52 53 55 60 64 ]
+          2 - Primary account number (PAN)              : [6212142000000000012]
+          3 - Processing code                           : [190000]
+          4 - Amount, transaction                       : [000000000002]
+         11 - System trace audit number                 : [202451]
+         14 - Date, expiration                          : [2912]
+         22 - Point of service entry mode               : [051]
+         23 - Application PAN sequence number           : [000]
+         25 - Point of service condition code           : [81]
+         26 - Point of service capture code             : [06]
+         35 - Track 2 data                              : [6212142000000000012=29122206899031006]
+         41 - Card acceptor terminal identification     : [52010009]
+         42 - Card acceptor identification code         : [898520154110004]
+         48 - Additional data - private                 : [KP77SG0C26323520140909356184                70000000201809#]
+         49 - Currency code, transaction                : [156]
+         52 - Personal identification number data       : [9CA4E8A0FA2C49B3]
+         53 - Security related control information      : [2600000000000000]
+         55 - Reserved ISO                              : [9F2608BD23789651C50E119F2701809F101307010103A0A804010A010000045796F2D315039F3704A1DD65379F36020FFE950580800460009A031811139C01309F02060000000000005F2A02015682027C009F1A0201569F03060000000000009F3303604800]
+         60 - Reserved national                         : [2218111400000060]
+         64 - Message authentication code (MAC)         : [8FE71AFC8252D683]
+Sending:
+01 29 60 05 81 00 00 60 31 00 00 00 00 02 00 70
+24 06 c0 20 c1 9a 11 19 62 12 14 20 00 00 00 00
+01 20 19 00 00 00 00 00 00 00 02 20 24 51 29 12
+05 10 00 00 81 06 37 62 12 14 20 00 00 00 00 01
+2d 29 12 22 06 89 90 31 00 6f 35 32 30 31 30 30
+30 39 38 39 38 35 32 30 31 35 34 31 31 30 30 30
+34 00 59 4b 50 37 37 53 47 30 43 32 36 33 32 33
+35 32 30 31 34 30 39 30 39 33 35 36 31 38 34 20
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 37
+30 30 30 30 30 30 30 32 30 31 38 30 39 23 31 35
+36 9c a4 e8 a0 fa 2c 49 b3 26 00 00 00 00 00 00
+00 01 02 9f 26 08 bd 23 78 96 51 c5 0e 11 9f 27
+01 80 9f 10 13 07 01 01 03 a0 a8 04 01 0a 01 00
+00 04 57 96 f2 d3 15 03 9f 37 04 a1 dd 65 37 9f
+36 02 0f fe 95 05 80 80 04 60 00 9a 03 18 11 13
+9c 01 30 9f 02 06 00 00 00 00 00 00 5f 2a 02 01
+56 82 02 7c 00 9f 1a 02 01 56 9f 03 06 00 00 00
+00 00 00 9f 33 03 60 48 00 00 16 22 18 11 14 00
+00 00 60 8f e7 1a fc 82 52 d6 83
+Received:
+01 06 60 00 00 05 81 60 31 00 00 00 00 02 10 70
+3e 02 81 0a c1 82 31 19 62 12 14 20 00 00 00 00
+01 20 19 00 00 00 00 00 00 00 02 20 24 51 20 24
+53 11 14 29 12 11 14 00 00 81 08 48 02 70 00 32
+30 32 34 35 33 39 30 38 31 30 36 30 30 35 32 30
+31 30 30 30 39 38 39 38 35 32 30 31 35 34 31 31
+30 30 30 34 00 59 4b 50 37 37 53 47 30 43 32 36
+33 32 33 35 32 30 31 34 30 39 30 39 33 35 36 31
+38 34 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+20 20 37 30 30 30 30 30 30 30 32 30 31 38 30 39
+23 31 35 36 00 36 9f 36 02 0f fe 91 0a 5f 6b 34
+a6 93 e5 be e4 30 30 72 11 86 0f 04 da 9f 79 0a
+00 00 00 05 20 00 e4 cc a9 01 00 42 42 49 30 30
+30 30 30 30 30 30 30 30 7c 30 31 7c c7 eb c7 f3
+bd f0 bb aa ee a3 b5 d8 bd c9 b7 d1 bd d3 bf da
+ca a7 b0 dc 7c 23 00 16 22 18 11 14 00 00 00 60
+98 cc 99 13 da 65 f3 87
+MTI:    [0210]
+HEADER: [603100000000]
+Fields: [ 2 3 4 11 12 13 14 15 23 25 32 37 39 41 42 48 49 55 59 60 64 ]
+          2 - Primary account number (PAN)              : [62121420000000000120]
+          3 - Processing code                           : [190000]
+          4 - Amount, transaction                       : [000000000002]
+         11 - System trace audit number                 : [202451]
+         12 - Time, local transaction (hhmmss)          : [202453]
+         13 - Date, local transaction (MMDD)            : [1114]
+         14 - Date, expiration                          : [2912]
+         15 - Date, settlement                          : [1114]
+         23 - Application PAN sequence number           : [000]
+         25 - Point of service condition code           : [81]
+         32 - Acquiring institution identification code : [48027000]
+         37 - Retrieval reference number                : [202453908106]
+         39 - Response code                             : [00]
+         41 - Card acceptor terminal identification     : [52010009]
+         42 - Card acceptor identification code         : [898520154110004]
+         48 - Additional data - private                 : [KP77SG0C26323520140909356184                70000000201809#]
+         49 - Currency code, transaction                : [156]
+         55 - Reserved ISO                              : [9F36020FFE910A5F6B34A693E5BEE430307211860F04DA9F790A000000052000E4CCA901]
+         59 - Reserved national                         : [4249303030303030303030307C30317CC7EBC7F3BDF0BBAAEEA3B5D8BDC9B7D1BDD3BFDACAA7B0DC7C23]
+         60 - Reserved national                         : [2218111400000060]
+         64 - Message authentication code (MAC)         : [98CC9913DA65F387]         
+MacBook-Pro:python_demo catkin$ cd /Users/catkin/python_demo ; env "PYTHONIOENCODING=UTF-8" "PYTHONUNBUFFERED=1" /usr/local/bin/python3 /Users/catkin/.vscode/extensions/ms-python.python-2018.10.1/pythonFiles/experimental/ptvsd_launcher.py --nodebug --client --host localhost --port 58956 /Users/catkin/python_demo/test_union_pay.py
+缴费:
+MTI:    [0200]
+HEADER: [603100000000]
+Fields: [ 2 3 4 11 14 22 23 25 26 35 41 42 48 49 52 53 55 60 64 ]
+          2 - Primary account number (PAN)              : [6212142000000000012]
+          3 - Processing code                           : [190000]
+          4 - Amount, transaction                       : [000000000003]
+         11 - System trace audit number                 : [204302]
+         14 - Date, expiration                          : [2912]
+         22 - Point of service entry mode               : [051]
+         23 - Application PAN sequence number           : [000]
+         25 - Point of service condition code           : [81]
+         26 - Point of service capture code             : [06]
+         35 - Track 2 data                              : [6212142000000000012=29122206899031006]
+         41 - Card acceptor terminal identification     : [52010009]
+         42 - Card acceptor identification code         : [898520154110004]
+         48 - Additional data - private                 : [KP77SG0C26323520140909356184                70000000201809#]
+         49 - Currency code, transaction                : [156]
+         52 - Personal identification number data       : [9CA4E8A0FA2C49B3]
+         53 - Security related control information      : [2600000000000000]
+         55 - Reserved ISO                              : [9F2608BD23789651C50E119F2701809F101307010103A0A804010A010000045796F2D315039F3704A1DD65379F36020FFE950580800460009A031811139C01309F02060000000000005F2A02015682027C009F1A0201569F03060000000000009F3303604800]
+         60 - Reserved national                         : [2218111400000060]
+         64 - Message authentication code (MAC)         : [22D951B5CAE6A85E]
+Sending:
+01 29 60 05 81 00 00 60 31 00 00 00 00 02 00 70
+24 06 c0 20 c1 9a 11 19 62 12 14 20 00 00 00 00
+01 20 19 00 00 00 00 00 00 00 03 20 43 02 29 12
+05 10 00 00 81 06 37 62 12 14 20 00 00 00 00 01
+2d 29 12 22 06 89 90 31 00 6f 35 32 30 31 30 30
+30 39 38 39 38 35 32 30 31 35 34 31 31 30 30 30
+34 00 59 4b 50 37 37 53 47 30 43 32 36 33 32 33
+35 32 30 31 34 30 39 30 39 33 35 36 31 38 34 20
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 37
+30 30 30 30 30 30 30 32 30 31 38 30 39 23 31 35
+36 9c a4 e8 a0 fa 2c 49 b3 26 00 00 00 00 00 00
+00 01 02 9f 26 08 bd 23 78 96 51 c5 0e 11 9f 27
+01 80 9f 10 13 07 01 01 03 a0 a8 04 01 0a 01 00
+00 04 57 96 f2 d3 15 03 9f 37 04 a1 dd 65 37 9f
+36 02 0f fe 95 05 80 80 04 60 00 9a 03 18 11 13
+9c 01 30 9f 02 06 00 00 00 00 00 00 5f 2a 02 01
+56 82 02 7c 00 9f 1a 02 01 56 9f 03 06 00 00 00
+00 00 00 9f 33 03 60 48 00 00 16 22 18 11 14 00
+00 00 60 22 d9 51 b5 ca e6 a8 5e
+Received:
+01 06 60 00 00 05 81 60 31 00 00 00 00 02 10 70
+3e 02 81 0a c1 82 31 19 62 12 14 20 00 00 00 00
+01 20 19 00 00 00 00 00 00 00 03 20 43 02 20 43
+04 11 14 29 12 11 14 00 00 81 08 48 02 70 00 32
+30 34 33 30 34 39 30 38 31 30 37 30 30 35 32 30
+31 30 30 30 39 38 39 38 35 32 30 31 35 34 31 31
+30 30 30 34 00 59 4b 50 37 37 53 47 30 43 32 36
+33 32 33 35 32 30 31 34 30 39 30 39 33 35 36 31
+38 34 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+20 20 37 30 30 30 30 30 30 30 32 30 31 38 30 39
+23 31 35 36 00 36 9f 36 02 0f fe 91 0a 5f 6b 34
+a6 93 e5 be e4 30 30 72 11 86 0f 04 da 9f 79 0a
+00 00 00 05 20 00 e4 cc a9 01 00 42 42 49 30 30
+30 30 30 30 30 30 30 30 7c 30 31 7c c7 eb c7 f3
+bd f0 bb aa ee a3 b5 d8 bd c9 b7 d1 bd d3 bf da
+ca a7 b0 dc 7c 23 00 16 22 18 11 14 00 00 00 60
+b3 93 0f 83 c4 82 04 85
+MTI:    [0210]
+HEADER: [603100000000]
+Fields: [ 2 3 4 11 12 13 14 15 23 25 32 37 39 41 42 48 49 55 59 60 64 ]
+          2 - Primary account number (PAN)              : [62121420000000000120]
+          3 - Processing code                           : [190000]
+          4 - Amount, transaction                       : [000000000003]
+         11 - System trace audit number                 : [204302]
+         12 - Time, local transaction (hhmmss)          : [204304]
+         13 - Date, local transaction (MMDD)            : [1114]
+         14 - Date, expiration                          : [2912]
+         15 - Date, settlement                          : [1114]
+         23 - Application PAN sequence number           : [000]
+         25 - Point of service condition code           : [81]
+         32 - Acquiring institution identification code : [48027000]
+         37 - Retrieval reference number                : [204304908107]
+         39 - Response code                             : [00]
+         41 - Card acceptor terminal identification     : [52010009]
+         42 - Card acceptor identification code         : [898520154110004]
+         48 - Additional data - private                 : [KP77SG0C26323520140909356184                70000000201809#]
+         49 - Currency code, transaction                : [156]
+         55 - Reserved ISO                              : [9F36020FFE910A5F6B34A693E5BEE430307211860F04DA9F790A000000052000E4CCA901]
+         59 - Reserved national                         : [4249303030303030303030307C30317CC7EBC7F3BDF0BBAAEEA3B5D8BDC9B7D1BDD3BFDACAA7B0DC7C23]
+         60 - Reserved national                         : [2218111400000060]
+         64 - Message authentication code (MAC)         : [B3930F83C4820485]
+MacBook-Pro:python_demo catkin$
